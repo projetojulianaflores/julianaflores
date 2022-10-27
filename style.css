@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+* { box-sizing: border-box; }
+
+* {
+margin: 0;
+padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+img { max-width: 100%; }
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#c5ebd6;
+}
+
+header { height: 210px; }
+
+a { text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+} 
+
+h1 {
+    background-color: black;    
+}
+
+h1 img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0px auto;    
+}
+
+nav {
+    background-color: black;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.253);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {    
+    font-size: 15px;
+    color: #cef5de;
+    padding: 10px;
+    transition: 500ms;
+}
+
+nav a:hover, nav a:focus {
+    background-color: #0a853d3f;
+}
+
+main {
+    background-color: #dff3e8d3;
+    width: 90vw; 
+    margin: auto; 
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 15px; 
+    border-radius: 5px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.253);
+}
+
+.destaque {
+    background-image: url(imagens/destaque.jpg);
+    height: 250px;
+    color: #c5ebd6;
+    text-align: center;
+
+    background-size: cover; 
+    background-position: center left;
+    background-repeat: no-repeat;      
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.destaque h2 {
+    font-size: 28px;
+    font-family:'Merienda', cursive;    
+    padding-bottom: 10px;
+
+    animation-name: aparecer;
+    animation-duration: 2s;
+}
+
+.destaque p {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Merienda', cursive;
+
+    padding-bottom: 120px;
+
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.instagram {
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+hr {
+    border-radius: 30px;
+    color: rgba(0, 128, 0, 0.418);
+    margin-bottom: 30px;
+    box-shadow:  rgba(24, 26, 25, 0.041) 0 0 5px 5px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.trabalho img {
+    height: 250px;
+    width: 210px;
+    margin: auto;
+    display: block;
+
+    transform: scale(0.8);
+    transition: 500ms;
+    box-shadow:  rgba(24, 26, 25, 0.068) 0 0 10px 10px;
+    border-radius: 5px;
+}
+
+.trabalho figure img:hover {
+    transform: scale(0.9)    
+}
+
+.faleconosco {
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+    text-align: center;   
+}
+
+
+.sobre {
+    height: 213px;
+    width: 320px;    
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.253);
+}
+
+.paragrafo {
+    text-indent: 10%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+aside {
+    font-size: 16px;
+    text-align: end;
+}
+
+form {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+}
+
+#nome, #email,#telefone, #assunto, #mensagem {
+    width: 100%;
+    border: none;
+    height: 30px;
+    box-shadow: rgb(0, 128, 117) 0 0 3px;
+    margin-bottom: 5px;
+}
+
+#mensagem {height: auto;}
+
+button {
+    border:none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+button:hover, button:focus {
+    background-color: rgb(0, 128, 117);
+}
+
+.produtos {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+    gap: 4vw;
+    padding: 0 2vw;
+}
+
+.itens {
+    width: 180px;
+    height: 180px;
+    margin: 30px;     
+}
+
+.itens img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+}
+
+.rodape {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+
+nav a { font-size: 20px; }
+        
+.destaque { height: 400px; }
+
+.destaque h2 {  font-size: 52px; }
+
+.destaque p { font-size: 32px; }
+    
+.trabalho img {
+    display: inline-block;
+        
+    height: 280px;
+    width: 248px;
+    margin: 20px;
+}
+
+.trabalho figure {        
+    text-align: center;
+}
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+.trabalho img {
+    display: inline-block;
+        
+    height: 450px;
+    width: 390px;
+}
+
+.trabalho figure {        
+    text-align: center;
+}
+
+.sobre {
+    height: 326px;
+    width: 540px; 
+}
+    
+}
+
+
+@media screen and (min-width: 1300px) {
+
+h2 { font-size: 32px; }
+
+.trabalho img {     
+            
+    height: 550px;
+    width: 490px;
+}
+    
+.itens {
+        width: 280px;
+        height: 280px;     
+}
+
+.sobre {
+    height: 326px;
+    width: 540px; 
+}
+
+form { width: 80%; }
+
+}
+
+    
+
+
+
