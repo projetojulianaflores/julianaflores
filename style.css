@@ -252,7 +252,7 @@ footer {
 
 @media screen and (min-width: 800px) {
 
-nav a { font-size: 20px; }
+nav a { font-size: 18px; }
         
 .destaque { height: 400px; }
 
@@ -276,6 +276,37 @@ nav a { font-size: 20px; }
 
 
 @media screen and (min-width: 1000px) {
+
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 140px;
+        background-color: black;  
+    }
+
+
+h1 img {
+    width: 120px;
+    height: 120px;    
+    margin: 10px 0px 10px 5vw;  
+}
+
+nav {
+    margin-right: 5vw;
+}
+
+nav a {    
+    font-size: 18px;
+    padding: 10px;
+    margin: 30px;
+
+}
+
+main {
+    margin-top: 20px
+}
+
 
 .trabalho img {
     display: inline-block;
