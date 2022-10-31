@@ -109,7 +109,7 @@ main {
     to { opacity: 1; }
 }
 
-.instagram {
+.siga {
     width: 180px;
     height: 180px;
     display: block;
@@ -231,6 +231,18 @@ button:hover, button:focus {
     width: 100%;
     height: 100%;
     object-fit: cover; 
+}
+
+.redes { 
+    margin: 10px;
+    text-align: center;
+}
+
+.whatsapp, .instagram {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin: 20px;    
 }
 
 footer {
