@@ -140,7 +140,6 @@ h2 {
     transform: scale(0.8);
     transition: 500ms;
     box-shadow:  rgba(24, 26, 25, 0.068) 0 0 10px 10px;
-    border-radius: 5px;
 }
 
 .trabalho figure img:hover {
