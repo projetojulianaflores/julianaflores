@@ -172,6 +172,12 @@ h2 {
     text-align: justify;
 }
 
+.indent {
+    text-indent: 10%;
+    font-size: 18px;
+    text-align: justify;
+}
+
 aside {
     font-size: 16px;
     text-align: end;
