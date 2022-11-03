@@ -276,6 +276,7 @@ nav a { font-size: 18px; }
 .destaque h2 {  font-size: 52px; }
 
 .destaque p { font-size: 32px; }
+
     
 .trabalho img {
     display: inline-block;
@@ -346,7 +347,12 @@ main {
 
 @media screen and (min-width: 1300px) {
 
-h2 { font-size: 32px; }
+h2 { font-size: 28px; }
+
+.siga {
+    width: 150px;
+    height: 150px;
+ }
 
 .trabalho img {     
             
@@ -370,12 +376,24 @@ form { width: 80%; }
 
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1600px) {
+    h1 img {
+        width: 125px;
+        height: 125px;
+        display: flex;
+        margin: auto;   
+    }
+
+    }
     .limite {
         max-width: 1000px;
+        margin-left: 30px;
         margin: auto;
     }
 
+        
+
+    
 
     
 
