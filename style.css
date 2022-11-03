@@ -383,13 +383,16 @@ form { width: 80%; }
         display: flex;
         margin: auto;   
         margin-left: 5vw;   
-    }
-
-    }
+        
+}
+    
     .limite {
         max-width: 1600px;
         margin: auto;
-    }
+}
+}
+
+ 
 
         
 
