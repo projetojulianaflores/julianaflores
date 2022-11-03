@@ -110,8 +110,8 @@ main {
 }
 
 .siga {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     display: block;
     margin: 0px auto;
     margin-top: 10px;
@@ -367,6 +367,15 @@ h2 { font-size: 32px; }
 form { width: 80%; }
 
 }
+
+
+
+@media screen and (min-width: 1000px) {
+    .limite {
+        max-width: 1000px;
+        margin: auto;
+    }
+
 
     
 
