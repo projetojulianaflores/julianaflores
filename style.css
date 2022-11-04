@@ -3,8 +3,8 @@
 * { box-sizing: border-box; }
 
 * {
-margin: 0;
-padding: 0;
+margin: 0px;
+padding: 0px;
 }
 
 html { scroll-behavior: smooth; }
@@ -121,7 +121,7 @@ main {
 hr {
     border-radius: 30px;
     color: rgba(0, 128, 0, 0.418);
-    margin-bottom: 30px;
+    margin: 30px 0px 30px 0px;
     box-shadow:  rgba(24, 26, 25, 0.041) 0 0 5px 5px;
 }
 
@@ -144,6 +144,12 @@ h2 {
 
 .trabalho figure img:hover {
     transform: scale(0.9)    
+}
+
+figcaption {
+    font-size: 12px;
+    text-transform: none;
+    margin-top: 5px;
 }
 
 .faleconosco {
@@ -173,7 +179,7 @@ h2 {
 }
 
 .indent {
-    text-indent: 10%;
+    text-indent: 5%;
     font-size: 18px;
     text-align: justify;
 }
@@ -187,6 +193,12 @@ form {
     width: 100%;
     margin: auto;
     padding: 30px;
+}
+
+.contato {
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px
 }
 
 #nome, #email,#telefone, #assunto, #mensagem {
@@ -215,7 +227,7 @@ button:hover, button:focus {
 .produtos {
     font-size: 18px;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
 
 .imagens {
@@ -337,6 +349,20 @@ main {
     text-align: center;
 }
 
+.produtos {
+    font-size: 22px;
+    text-align: center;
+}
+
+.contato {
+    font-size: 22px;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 16px;   
+}
+
 .sobre {
     height: 326px;
     width: 540px; 
@@ -369,6 +395,7 @@ h2 { font-size: 28px; }
     height: 326px;
     width: 540px; 
 }
+
 
 form { width: 80%; }
 
